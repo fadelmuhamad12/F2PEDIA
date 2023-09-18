@@ -25,11 +25,11 @@ const BrowseList = () => {
   ];
 
   return (
-    <div>
+    <div className="md:grid md:grid-cols-2">
         {browseList.map(({name,img})=> {
             return(
                 <div className="flex items-center justify-center mt-4" key={name}> 
-                    <img src={img} alt="Foto" className="rounded-lg w-3/4"/>
+                    <img src={img} alt="Foto" className="rounded-lg w-3/4 md:w-3/4 "/>
                 </div>
             )
         })}
