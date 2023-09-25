@@ -37,11 +37,11 @@ const TopSellingProducts = () => {
 
   return (
     <>
-    <div className='flex items-center justify-center md:gap-12'>
+    <div className='flex items-center justify-center md:gap-12 '>
         {topSelling.map(({id, name, price, img})=> {
             return(
-                <div key={id} >
-                <img src={img} alt={name} />
+                <div key={id} className='cursor-pointer'>
+                <img src={img} alt={name} className='hover:scale-110 duration-500'/>
                 <div className=' flex flex-col items-center justify-center'>
                 <p className='font-semibold '>{name}</p> 
                 <p>${price}</p>

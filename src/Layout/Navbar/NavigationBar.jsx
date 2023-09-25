@@ -42,9 +42,9 @@ const NavigationBar = () => {
             {hamburger ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
        
-            <NavbarList lists={lists} />
+            {/* <NavbarList lists={lists} />
             <NavbarInput Input={Input} Button={Button} />
-            <NavbarIcon />
+            <NavbarIcon /> */}
        
         </div>
       </Navbar>

@@ -29,7 +29,7 @@ const BrowseList = () => {
         {browseList.map(({name,img})=> {
             return(
                 <div className="flex items-center justify-center mt-4" key={name}> 
-                    <img src={img} alt="Foto" className="rounded-lg w-3/4 md:w-3/4 "/>
+                    <img src={img}  alt="Foto" className="rounded-lg w-3/4 md:w-3/4 blur-sm hover:blur-none hover:scale-110 duration-300 "/>
                 </div>
             )
         })}
