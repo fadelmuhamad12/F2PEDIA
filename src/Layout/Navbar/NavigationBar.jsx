@@ -31,20 +31,21 @@ const NavigationBar = () => {
 
   return (
     <>
-      <Navbar className="mx-auto max-w-screen-xl px-4 py-3  top-0 fixed">
-        <div className="flex flex-wrap items-center justify-between gap-y-4 text-black ">
+      <Navbar className="max-w-full px-4 py-3 top-0 fixed">
+        <div className="flex flex-wrap items-center justify-between gap-y-4 text-black">
           <NavbarName Typography={Typography} />
 
           <div
-            className="cursor-pointer text-black z-10 md:hidden  "
+            className="cursor-pointer text-black z-10 md:hidden"
             onClick={handleHideList}
           >
-            {hamburger ? <FaTimes size={30} /> : <FaBars size={30}  />}
+            {hamburger ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
-
-          {/* <NavbarList lists={lists} />
-          <NavbarInput Input={Input} Button={Button} />
-          <NavbarIcon /> */}
+       
+            <NavbarList lists={lists} />
+            <NavbarInput Input={Input} Button={Button} />
+            <NavbarIcon />
+       
         </div>
       </Navbar>
 

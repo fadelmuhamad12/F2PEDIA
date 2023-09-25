@@ -1,11 +1,12 @@
-import Banners from "./components/Banners/Banners";
-import Browse from "./components/Browse/Browse";
-import Carousel from "./components/Carousel/Carousel";
-import Reviews from "./components/CustReviews/Reviews";
-import LatestOffer from "./components/LatestOffer/LatestOffer";
-import NavigationBar from "./components/Navbar/NavigationBar";
-import NewArrivals from "./components/NewArrivals/NewArrivals";
-import TopSelling from "./components/TopSelling/TopSelling";
+import Banners from "./Layout/Banners/Banners";
+import Browse from "./Layout/Browse/Browse";
+import Carousel from "./Layout/Carousel/Carousel";
+import Reviews from "./Layout/CustReviews/Reviews";
+import Footer from "./Layout/Footer/Footer";
+import LatestOffer from "./Layout/LatestOffer/LatestOffer";
+import NavigationBar from "./Layout/Navbar/NavigationBar";
+import NewArrivals from "./Layout/NewArrivals/NewArrivals";
+import TopSelling from "./Layout/TopSelling/TopSelling";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Browse />
       <Reviews />
       <LatestOffer />
+      <Footer />
       
     </div>
   );

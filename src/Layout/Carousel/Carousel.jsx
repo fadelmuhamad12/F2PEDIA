@@ -1,9 +1,9 @@
 import React from "react";
 import img from "../../assets/Carousel/Rectangle.png";
 import CarouselText from "./CarouselText";
-import CarouselButton from "./CarouselButton";
 import CarouselSelling from "./CarouselSelling";
 import CarouselVector from "./CarouselVector";
+import ButtonCarousel from "../../Components/ButtonCarousel";
 const Carousel = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const Carousel = () => {
       >
         <div>
           <CarouselText />
-          <CarouselButton />
+          <ButtonCarousel />
           <CarouselSelling />
         </div>
         {/* <CarouselVector /> */}

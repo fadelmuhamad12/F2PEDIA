@@ -4,7 +4,7 @@ import log from "../../assets/navbarIcon/log.svg";
 
 const NavbarIcon = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 cursor-pointer hover:invisible">
       <img src={cart} alt="" />
       <img src={log} alt="" />
     </div>

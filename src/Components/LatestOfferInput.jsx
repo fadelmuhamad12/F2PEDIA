@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
 const LatestOfferInput = () => {
   return (
-    <div className="flex flex-col px-4 md:mt-6">
+        <div className="flex flex-col px-4 md:mt-6">
       <input
         type="text"
         name="email"
@@ -12,7 +12,7 @@ const LatestOfferInput = () => {
       />
       <button className="bg-white font-bold rounded-full px-4 mt-2 py-2 hover:bg-gray-500">Subscribe To Newsletter</button>
     </div>
-  );
-};
+  )
+}
 
-export default LatestOfferInput;
+export default LatestOfferInput
