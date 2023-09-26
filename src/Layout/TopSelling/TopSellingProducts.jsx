@@ -1,5 +1,6 @@
 import React from 'react'
 import shirt from "../../assets/NewArrivals/shirt.png"
+import ButtonViewAll from '../../Components/ButtonViewAll'
 
 
 const TopSellingProducts = () => {
@@ -51,7 +52,7 @@ const TopSellingProducts = () => {
         })}
 
     </div>
-    <button className='flex mx-auto mt-6 p-4 bg-white border border-gray-300 w-3/4 md:w-24 items-center justify-center hover:bg-gray-500 rounded-full'>View All</button>
+    <ButtonViewAll />
     </>
   )
 }
